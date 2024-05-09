@@ -1,0 +1,102 @@
+/* -------------------------------------------------------- */
+/* ¡¡¡¡¡ Los estilos de los botones estan en index.css !!!!!*/
+/* ---------------------------------------------------------*/
+
+.mask {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.mask::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #001427ce;
+}
+
+.introimg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
+.hero {
+  height: 100%;
+  width: 100%;
+}
+
+.hero .content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+.hero .content h1 {
+  font-size: 4rem;
+  padding: 0.6rem 0 1.5rem;
+}
+
+.hero .content p {
+  font-size: 1.4rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.content .btn {
+  margin: 1rem 1rem;
+}
+
+
+.btn {     /* Ver si esa forma de los botones va bien, o cambiarla */
+  padding: 12px 32px;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: var(--clr-light);
+  border: 1px solid var(--clr-medium);
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  font-weight: 700;
+  transition: 0.7s;
+}
+
+.btnlight {
+  background-color: var(--clr-med-dark);
+}
+
+.btn:hover {
+  background-color: var(--clr-medium);
+  transition: 0.7s;
+}
+
+@media screen and (max-width: 600px) {
+  .btn {     
+    padding: 11px 24px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: var(--clr-light);
+    border: 1px solid var(--clr-medium);
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-weight: 600;
+    transition: 0.7s;
+  }
+  
+  .hero .content h1 {
+      font-size: 3rem;
+      
+  }
+  
+  .hero .content p {
+      font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,73 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	position: fixed;
+	width: 100%;
+	height: 90px;
+	z-index: 10;
+	transition: 1s;
+}
+
+.headerbg {
+	background-color: #001427ea;
+	transition: 1s;
+}
+
+.navmenu {
+	display: flex;
+}
+
+.navmenu li {
+	padding: 0 1rem;
+}
+
+.navmenu li a {
+	font-size: 1.7rem;
+	font-weight: 500;
+	margin-right: 2rem;
+}
+
+.hamburger {
+	display: none;
+}
+
+.icon {
+	height: 20px;
+	width: auto;
+	color: var(--clr-light);
+}
+
+@media screen and (max-width: 1040px) {
+	.navmenu {   /* Ver si es mejor que sombree toda la pantalla o solamente una parte mas chica */
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100vh;
+		background-color: #001427ea;
+		position: absolute;
+		top: 0;
+		right: -100%;
+		transition: 0.5s;
+		z-index: -3;
+	}
+
+	.navmenu.active {
+		right: 0;
+		transition: 0.5s;
+	}
+
+	.navmenu li {
+		padding: 1rem 0;
+	}
+
+	.navmenu li a {
+		font-size: 2rem;
+	}
+
+	.hamburger{
+			display: initial;
+	}
+}
