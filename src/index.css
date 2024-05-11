@@ -57,11 +57,11 @@
 /* General styles---------------- */
 
 body {
-	background: linear-gradient(260deg, /*#8d0801 0%,*/ var(--clr-med-dark) 25%, var(--clr-dark)70%) ;
+	background: linear-gradient(260deg, var(--clr-med-dark) 25%, var(--clr-dark)70%) ;
 	color: var(--clr-white);
 	margin: 0;
 	font-family: var(--ff-primary);
-	font-size: var(--fs-body);
+	font-size: var(--fs-p);
 }
 
 img {
@@ -71,6 +71,14 @@ img {
 
 ul {
     list-style-type: none;
+}
+
+ul, 
+li, 
+p,
+a {
+	text-decoration: none;
+	color: inherit;
 }
 
 /* Typography---------------- */
@@ -100,11 +108,9 @@ p {
 
 .section__title {
 	margin-bottom: 0.25rem;
-
 }
 
 .section__subtitle {
 	margin: 0;
 	font-size: var(--fs-h3);
-
 }
