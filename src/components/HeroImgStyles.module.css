@@ -24,6 +24,7 @@
   background-size: cover;
   background-position: center;
   object-fit: cover;
+  background-repeat: no-repeat;
 }
 
 .hero {

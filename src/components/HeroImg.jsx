@@ -4,6 +4,7 @@ import style from "./HeroImgStyles.module.css"
 import PassimLoopHQ from "../assets/img/passimLoop.jpg"
 
 
+
 const HeroImg = () => {
   return (
     <div className={style.hero}>
