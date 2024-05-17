@@ -29,6 +29,10 @@
 	align-items: flex-end;
 }
 
+.imgContainer:hover {
+	cursor: pointer;
+}
+
 .imgContainer img {
 	position: absolute;
 	border-radius: 40%;
@@ -41,6 +45,8 @@
 	width: 80%;
 	height: auto;
 	margin: 0 0 10.5rem 6.5rem;
+	transition: 0.7s;
+	rotate: 360deg;
 }
 
 .imgContainer .img2 {
@@ -48,12 +54,7 @@
 	width: 66%;
 	height: auto;
 	margin: 0 0 4rem 3rem;
-}
-
-.imgContainer .img3 {
-	z-index: 3;
-	width: 33%;
-	height: auto;
+	transition: 0.7s;
 }
 
 @media screen and (max-width: 600px) {
