@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import style from "./HeroImgStyles.module.css"
-import PassimLoopHQ from "../assets/img/passimLoop.jpg"
+import PassimLoopHQ from "../assets/img/PassimLoop HQ.jpeg"
 
 
 
