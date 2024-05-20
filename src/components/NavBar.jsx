@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import style from "./NavBarStyles.module.css";
+import passimLoopLogo from "/passimLoopTransparent.png"; 
 
 const NavBar = () => {
   const [color, setColor] = useState(false);
@@ -20,15 +21,13 @@ const NavBar = () => {
 
   return (
     <div
-      className={
-        color ? `${style.header} ${style.headerbg}` : `${style.header}`
-      }
-    >
+      className={ color ? `${style.headerbg}` : `${style.header}` } >
       <Link to="/">
-        <h1>PassimLoop</h1>{" "}
-        {/* Aca pense en poner el logo más chico en vez del nombre escrito, pero me parece que hay que cambiar algo de los 3 lugares donde aparece el nombre, es muy redundante */}
+        <h1>
+          <img className={style.passimLoopLogo} src={passimLoopLogo} alt="PassimLoop logo" />
+        </h1>
       </Link>
-      <ul className={click ? `${style.navMenuActive}` : `${style.navmenu}`}>
+      <ul className={click ? `${style.navMenuActive}` : `${style.navmenu}`} >
         <li>
           <Link to="/">Inicio</Link>
         </li>
@@ -42,7 +41,7 @@ const NavBar = () => {
           <Link to="/contact">Contacto</Link>
         </li>
       </ul>
-      <div className={style.hamburger} onClick={handleClick}>
+      <div className={style.hamburger} onClick={handleClick} >
         {click ? (
           <FaTimes className={style.icon} />
         ) : (

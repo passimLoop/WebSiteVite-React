@@ -4,7 +4,7 @@ import './index.css';
 import { Home } from "./routes/Home";
 import { About } from "./routes/About";
 import { Contact } from "./routes/Contact";
-import Products from "./routes/Products";
+import { Products } from "./routes/Products";
 
 function App() {
   return (

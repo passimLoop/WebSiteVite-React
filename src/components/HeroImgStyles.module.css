@@ -12,7 +12,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #001427ce;
+  background-color: #ffffff00;
 }
 
 .introimg {
@@ -40,12 +40,14 @@
 .hero .content h1 {
   font-size: 4rem;
   padding: 0.6rem 0 1.5rem;
+  text-shadow: 5px 2px 7px var(--clr-black), -5px -2px 7px var(--clr-black);
 }
 
 .hero .content p {
   font-size: 1.4rem;
-  font-weight: 200;
+  font-weight: 500;
   text-transform: uppercase;
+  text-shadow: 5px 2px 7px var(--clr-black), -5px -2px 7px var(--clr-black);
 }
 
 .content .btn {
@@ -53,13 +55,13 @@
 }
 
 
-.btn {     /* Ver si esa forma de los botones va bien, o cambiarla */
+.btn {     
+  color: var(--clr-white);
   padding: 12px 32px;
   font-size: 1.1rem;
   text-transform: uppercase;
-  background-color: transparent;
-  color: var(--clr-light);
-  border: 1px solid var(--clr-medium);
+  background-color: #0000006e;;
+  border: 1px solid var(--clr-white);
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
   font-weight: 700;
@@ -67,11 +69,12 @@
 }
 
 .btnlight {
-  background-color: var(--clr-med-dark);
+  color: var(--clr-white);
+  text-shadow: 2px 2px 4px var(--clr-black), -2px -2px 4px var(--clr-black);
 }
 
 .btn:hover {
-  background-color: var(--clr-medium);
+  box-shadow: 1px 1px 10px var(--clr-white);
   transition: 0.7s;
 }
 

@@ -5,6 +5,7 @@
 	align-items: center;
 	height: 100vh;
 	padding: 3rem 0;
+	margin-bottom: 3rem;
 }
 
 .content {
@@ -15,6 +16,7 @@
 
 .textContainer {
 	width: 35vw;
+	text-align: justify;
 }
 
 .textContainer div {

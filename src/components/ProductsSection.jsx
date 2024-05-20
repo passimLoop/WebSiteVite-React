@@ -15,20 +15,25 @@ const ProductsSection = () => {
 
   return (
 		<div className={styles.container}>
-			<h2>Nuestros Proyectos</h2>
+			<h2>Algunos de nuestros proyectos</h2>
 			<div className={styles.content}>
 				<div className={styles.textContainer}>
 					<div>
-						<h4>Obtenga atencion personalizada</h4>
-						<p>Nuestro objetivo es su satisfaccion</p>
+						<h4>Desarrollo de Sitios Web:</h4>
+						<p>Profesionales y responsivos, desde sitios corporativos hasta tiendas en línea, con una experiencia de usuario óptima y un diseño adaptado a tus necesidades.</p>
 					</div>
 					<div>
-						<h4>Compromiso</h4>
-						<p>Comprometidos con que su sitio sea el esperado</p>
+						<h4>Aplicaciones Web:</h4>
+						<p>A medida, utilizamos las últimas tecnologías, aportando soluciones robustas, seguras y escalables.</p>
 					</div>
 					<div>
-						<h4>Algo mas que poner</h4>
-						<p>Alguna otra cosa mas de chamullo</p>
+						<h4>Landing Pages:</h4>
+						<p>Efectivas y atractivas que convierten visitantes en clientes. Trabajamos para que tu campaña sea un éxito.</p>
+					</div>
+					<div>
+						<h4>CONTACTANOS</h4>
+						<p>¿Listo para llevar tu negocio al siguiente nivel?</p> 
+					
 					</div>
 				</div>
 				<div onClick={handleClick} className={styles.imgContainer}>

@@ -1,15 +1,15 @@
 import React from "react";
 import NavBar from "../components/NavBar";
+import ProductComp from "../components/ProductComp";
 import Footer from "../components/Footer";
 
-const Products = () => {
+export const Products = () => {
     return (
         <div>
             <NavBar />
+            <ProductComp />
             <Footer />
         </div> 
     )
     
 }
-
-export default Products

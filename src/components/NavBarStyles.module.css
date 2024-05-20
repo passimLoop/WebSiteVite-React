@@ -10,7 +10,19 @@
   transition: 1s;
 }
 
+.passimLoopLogo {
+  width: 140px;
+}
+
 .headerbg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  z-index: 10;
   background-color: #001427ea;
   transition: 1s;
 }
@@ -23,13 +35,13 @@
   padding: 0 1rem;
 }
 
-/* Repetido abajo */
-
-/* .navmenu li a {
+/* Se repite por lo que podemos agregar unicamente de a una clase */
+.navmenu li a,
+.navMenuActive li a {
   font-size: 1.7rem;
   font-weight: 500;
   margin-right: 2rem;
-} */
+}
 
 .navmenu li a {
   font-size: 1.7rem;
@@ -48,6 +60,7 @@
 
 .navmenu li a:hover {
   border: 1px solid #fff;
+  box-shadow: 1px 1px 10px var(--clr-white);
   background: transparent;
   transition: 0.7s;
 }
@@ -59,12 +72,11 @@
 .icon {
   height: 20px;
   width: auto;
-  color: var(--clr-light);
+  color: var(--clr-white);
 }
 
 @media screen and (max-width: 1040px) {
   .navmenu {
-    /* Ver si es mejor que sombree toda la pantalla o solamente una parte mas chica */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -79,6 +91,7 @@
   }
 
   .navMenuActive {
+    display: flex;
     right: 0;
     transition: 0.5s;
     flex-direction: column;
@@ -89,6 +102,8 @@
     background-color: #001427ea;
     position: absolute;
     top: 0;
+    gap: 3rem;
+    z-index: -1;
   }
 
   .navmenu li {
