@@ -1,5 +1,6 @@
 .footer {
   width: 100%;
+  margin-top: 8rem;
 }
 
 .footercontainer {
@@ -23,7 +24,7 @@
 }
 
 .icon {
-  height: 20px;
+  height: 30px;
   width: auto;
   color: var(--clr-light);
   margin-right: 2rem;
@@ -50,8 +51,15 @@
 
 .phone,
 .email,
-.home {
+.home,
+.instagram {
   padding: 1rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.instagram a, 
+.email a {
   display: flex;
   align-items: center;
 }

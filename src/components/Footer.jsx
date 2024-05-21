@@ -5,11 +5,13 @@ import {
   FaLinkedin,
   FaInstagramSquare,
   FaMailBulk,
-  FaPhone,
+  FaWhatsapp,
 } from "react-icons/fa";
 import style from "./FooterStyles.module.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const phone = 'https://api.whatsapp.com/send?phone=541138774301';
   return (
     <div className={style.footer}>
       <div className={style.footercontainer}>
@@ -18,26 +20,25 @@ const Footer = () => {
              <FaHome className={style.icon} />
             <p>Agregar ubicación....</p>
           </div> */}
-          {/* <div className={style.phone}>
-                        <FaPhone className={style.icon} />
-                        <p>(11) 38774301 / (261) 6117708 / (261) 5254453</p>
-                    </div> */}
+          <div className={style.phone}>
+              <FaWhatsapp className={style.icon} />
+              <a href={phone} target="blank">Envienos mensaje con un click</a>
+          </div>
           {/* <div className={style.email}>
             <FaFacebook className={style.icon} />
-            <p>
-              estamos bloqueados por no ser persona física, apelamos y hay que
-              esperar jeje
-            </p>
           </div> */}
-          <div className={style.email}>
-            <a href="https://www.instagram.com/passimloop/" target="_blank">
+          <div className={style.instagram}>
+            <a href="https://www.instagram.com/passimloop/" target="_blank" rel="noopener noreferrer">
               <FaInstagramSquare className={style.icon} />
+              <p>passimloop</p>
             </a>
-            <p>https://www.instagram.com/passimloop/</p>
           </div>
           <div className={style.email}>
-            <FaMailBulk className={style.icon} />
-            <p>passimloop@gmail.com</p>
+            <a href={`mailto:passimloop@gmail.com`} target="_blank" >
+              <FaMailBulk className={style.icon} />
+              <p>passimloop@gmail.com</p> 
+            </a>
+            
           </div>
         </div>
         <div className={style.right}>

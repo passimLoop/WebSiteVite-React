@@ -5,10 +5,14 @@
   align-items: center;
   justify-content: center;
   margin: 0 1.5rem;
+  gap: 2rem;
 }
 
 .content {
   display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  gap: 1.5rem;
 }
 
 .text {
@@ -19,4 +23,6 @@
 
 .text h4 {
   text-align: center;
+  line-height: 1.5;
+  margin-bottom: 40px;
 }

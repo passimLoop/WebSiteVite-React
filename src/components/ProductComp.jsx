@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./ProductCompStyles.module.css"
+import VerticalSlider from "./VerticalSlider"
 
 const ProductComp = () => {
   return (
@@ -24,20 +25,7 @@ const ProductComp = () => {
             <p>Nos encargamos del mantenimiento continuo de tu sitio web para asegurar su funcionamiento óptimo. Realizamos actualizaciones, monitoreamos la seguridad y solucionamos cualquier problema técnico para que puedas centrarte en tu negocio.</p>
           </div>
         </div>
-        <div className={style.sliderContainer}>
-          <div className={style.slide}>
-            <h4>Academia</h4>
-          </div>
-          <div className={style.slide}>
-            <h4>Sitio Web</h4>
-          </div>
-          <div>
-            <h4>Tienda onLine</h4>
-          </div>
-          <div>
-            <h4>Landing Page</h4>
-          </div>
-        </div>
+        <VerticalSlider />
       </div>
     </div>
   )

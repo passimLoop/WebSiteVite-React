@@ -15,7 +15,8 @@
 
 .imgAbout {
   max-width: 40vw;
-  border-radius: 45%;
+  max-height: 80vh;
+  border-radius: 35%;
   overflow: hidden;
 }
 
