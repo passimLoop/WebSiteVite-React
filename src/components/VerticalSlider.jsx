@@ -74,7 +74,7 @@ const VerticalSlider = () => {
           <div className={style.slide}>
             <img src={sitioPic} onClick={() => setShowSite(true)} alt="Web site picture" />
             <h4>Sitio Web</h4>
-            <p>Sitio web normal de una empresa de servicios informáticos, que a su vez también cuenta con una tiemda.</p>
+            <p>Sitio web normal de una empresa de servicios informáticos, que a su vez también cuenta con una tienda.</p>
           </div>
           <div className={style.slide}>
             <img src={tiendaPic} onClick={() => setShowStore(true)} alt="Store picture" />
