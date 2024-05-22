@@ -57,7 +57,7 @@
 /* General styles---------------- */
 
 body {
-	background: linear-gradient(260deg, var(--clr-med-dark) 25%, var(--clr-dark)70%) ;
+	background: linear-gradient(260deg, var(--clr-med-dark) 25%, var(--clr-dark)70%);
 	color: var(--clr-white);
 	margin: 0;
 	font-family: var(--ff-primary);

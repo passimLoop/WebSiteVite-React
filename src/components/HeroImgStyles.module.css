@@ -83,9 +83,9 @@
     padding: 11px 24px;
     font-size: 1rem;
     text-transform: uppercase;
-    background-color: transparent;
+    background-color: #0000007f;
     color: var(--clr-light);
-    border: 1px solid var(--clr-medium);
+    border: 1px solid var(--clr-white);
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     font-weight: 600;

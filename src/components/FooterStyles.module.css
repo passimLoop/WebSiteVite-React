@@ -1,13 +1,13 @@
 .footer {
   width: 100%;
-  margin-top: 8rem;
+  margin-top: 5%;
 }
 
 .footercontainer {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 40px;
+  grid-gap: 0 20px;
 }
 
 .left,
@@ -16,7 +16,7 @@
   max-width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 5rem;
+  padding: 0 5rem;
 }
 
 .right h4 {
@@ -64,8 +64,41 @@
   align-items: center;
 }
 
+@media screen and (max-width: 800px) {
+  .footer {
+    margin-top: 5%;
+  }
+
+  .footercontainer {
+    grid-gap: 0 1rem;
+  }
+
+  .left,
+  .right {
+    padding: 0 1rem 2rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
+  
+  .footer{
+    margin-top: 1%;
+  }
+
   .footercontainer {
     grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+
+  .left,
+  .right {
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  
+  .footer{
+    margin-top: 0;
   }
 }

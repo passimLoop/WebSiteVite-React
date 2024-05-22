@@ -16,21 +16,30 @@
 }
 
 .container {
+  background: linear-gradient(260deg, var(--clr-med-dark) 25%, var(--clr-dark)70%);
   max-width: 90%;
   border-radius: 30px;
+  border: 1px solid var(--clr-white);
+  box-shadow: 1px 1px 10px var(--clr-white);
   position: relative;
   padding: 1rem;
+}
+
+.container h4 {
+  color: var(--clr-light);
+  border-bottom: 1px solid var(--clr-light);
+  padding-bottom: 20px;
 }
 
 .close {
   position: absolute;
   top: 0;
   right: 0;
-  margin: 1rem;
+  margin: 13px;
   background: #00000076;
   color: var(--clr-light);
   padding: 0.5rem;
-  margin: 4%;
   border-radius: 50%;
+  border: 1px solid var(--clr-light);
   font-size: 25px;
 }

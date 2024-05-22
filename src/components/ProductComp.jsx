@@ -25,7 +25,9 @@ const ProductComp = () => {
             <p>Nos encargamos del mantenimiento continuo de tu sitio web para asegurar su funcionamiento óptimo. Realizamos actualizaciones, monitoreamos la seguridad y solucionamos cualquier problema técnico para que puedas centrarte en tu negocio.</p>
           </div>
         </div>
-        <VerticalSlider />
+        <div>
+          <VerticalSlider />
+        </div>
       </div>
     </div>
   )

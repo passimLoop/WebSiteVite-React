@@ -35,8 +35,8 @@
   padding: 0 1rem;
 }
 
-/* Se repite por lo que podemos agregar unicamente de a una clase */
-.navmenu li a,
+/* Se repite por lo que podemos agregar unicamente de a una clase 
+.navmenu li a,*/
 .navMenuActive li a {
   font-size: 1.7rem;
   font-weight: 500;
@@ -116,5 +116,21 @@
 
   .hamburger {
     display: initial;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  
+  .passimLoopLogo {
+    width: 25%;
+  }
+  
+  .headerbg, .header {
+    padding: 1.5rem;
+    height: 16%;
+  }
+
+  .icon {
+    height: 20px;
   }
 }

@@ -33,3 +33,23 @@
   text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+
+  .container {
+    padding-top: 8rem;
+  }
+
+  .content {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .imgAbout {
+    max-width: 90vw;
+  }
+
+  .textAbout {
+    max-width: 98vw;
+    margin-left: 0;
+  }
+}
