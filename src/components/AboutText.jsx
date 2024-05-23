@@ -21,15 +21,14 @@ const AboutText = () => {
           </div>
           <div>
             <h4>Tecnología de Vanguardia:</h4>
-            <p>Utilizamos las tecnologías más recientes para asegurar que tu proyecto esté siempre a la vanguardia.</p>  
+            <p>Utilizamos las tecnologías más recientes para asegurar que tu proyecto esté siempre actualizado.</p>  
           </div>
           <div>
             <h4>Soporte Continuo: </h4>
-            <p>No solo desarrollamos tu proyecto, sino que también ofrecemos soporte y mantenimiento continuo para asegurar su éxito a largo plazo.</p>  
+            <p>Para asegurar el éxito a largo plazo del proyecto desarrollado, te ofrecemos, además, soporte y mantenimiento continuo.</p>  
           </div>
         </div>
       </div>
-      
     </div>
   )
 }

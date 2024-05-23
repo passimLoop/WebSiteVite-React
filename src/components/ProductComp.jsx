@@ -10,7 +10,7 @@ const ProductComp = () => {
         <div className={style.text}>
           <div>
             <h4>Aplicaciones Web:</h4>
-            <p>Desarrollamos aplicaciones web a medida para mejorar la interacción con tus usuarios y optimizar tus procesos internos. Utilizamos las últimas tecnologías para asegurar que nuestras soluciones sean robustas, seguras y escalables.</p>
+            <p>Desarrollamos aplicaciones web a medida para mejorar la interacción con tus usuarios y optimizar tus procesos internos. Utilizamos las últimas tecnologías para asegurar que nuestras soluciones sean robustas, seguras y adaptables a mayores requerimientos o exigencias.</p>
           </div>
           <div>
             <h4>Landing Pages:</h4>
@@ -18,7 +18,7 @@ const ProductComp = () => {
           </div>
           <div>
             <h4>Menú Digital:</h4>
-            <p>Ofrecemos soluciones de menú digital para restaurantes y negocios de alimentos. Nuestro menú digital es fácil de actualizar y proporciona una experiencia interactiva y moderna para tus clientes.</p>
+            <p>Ofrecemos cartas digitales para restaurantes y negocios de alimentos. Nuestros menús digitales son fáciles de actualizar y proporcionan una experiencia interactiva y moderna para tus clientes.</p>
           </div>
           <div>
             <h4>Mantenimiento de Sitios Web:</h4>

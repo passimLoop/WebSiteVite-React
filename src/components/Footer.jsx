@@ -19,9 +19,7 @@ const Footer = () => {
         <div className={style.right}>
           <h4>Acerca de nosotros</h4>
           <p>
-            Somos una empresa enfocada en la presencia digital de personas y
-            organismos a través de diversos medios, como sitios web,
-            aplicaciones web, landing pages, menús digitales, entre otros.
+          Somos una empresa orientada a facilitar la presencia digital de personas y organismos en diversos medios, tales como sitios web, aplicaciones web, landing pages, menús digitales y otros.
           </p>
         </div>
 
@@ -34,7 +32,7 @@ const Footer = () => {
 
           <div className={style.phone}>
               <FaWhatsapp className={style.icon} />
-              <a href={phone} target="blank">Envienos mensaje con un click</a>
+              <a href={phone} target="blank">Envíenos mensaje con un click</a>
           </div>
 
           {/* <div className={style.email}>
