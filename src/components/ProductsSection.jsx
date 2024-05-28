@@ -31,8 +31,8 @@ const ProductsSection = () => {
 						<p>Efectivas y atractivas que convierten visitantes en clientes. Trabajamos para que tu campaña sea un éxito.</p>
 					</div>
 					<div>
-						<h4>CONTACTANOS</h4>
-						<p>¿Listo para llevar tu negocio al siguiente nivel?</p> 
+						<h4>Outsourcing</h4>
+						<p>Nos encargamos de las tareas que nos encomiendes, cumpliendo tiempos y requerimientos</p> 
 					
 					</div>
 				</div>

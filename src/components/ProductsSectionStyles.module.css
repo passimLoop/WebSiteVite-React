@@ -5,7 +5,7 @@
 	align-items: center;
 	height: 100vh;
 	padding: 3rem 0;
-	margin-bottom: 23rem;
+	margin-bottom: 10rem;
 }
 
 .content {
@@ -28,9 +28,9 @@
 	position: relative;
 	display: flex;
 	width: 60vw;
-	height: 70vh;
+	height: 50vh;
 	align-items: flex-end;
-	margin-top: 10rem;
+	margin-top: 15rem;
 }
 
 .imgContainer:hover {
@@ -83,6 +83,7 @@
 	.imgContainer {
 		margin-top: 15%;
 		width: 100vw;
+		height: 50vh;
 	}
 
 	.imgContainer img {
@@ -118,8 +119,10 @@
 	}
 
 	.imgContainer {
+		max-width: 500px;
 		margin-top: 1%;
-		width: 100vw;
+		width: 85vw;
+		max-height: 38vh;
 	}
 }
 

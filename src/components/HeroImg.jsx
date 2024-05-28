@@ -8,7 +8,6 @@ const HeroImg = () => {
     <div className={style.hero}>
         <div className={style.mask}>
             <img className={style.introimg} src={PassimLoop} alt="logo PassimLoop"/> 
-            {/* Ya el <h1> tiene el nombre, no se si poner el logo de fondo es sobre cargar, por ahi cambiar la imagen de fondo */}
         </div>
         <div className={style.content}>
             <p>Empresa de Consultoría y Desarrollo Web</p>

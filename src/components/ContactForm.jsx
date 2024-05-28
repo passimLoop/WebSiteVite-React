@@ -5,12 +5,14 @@ import style from './ContactFormStyles.module.css';
 
 const ContactForm = () => {
 
-  const [ formData, setFormData ] = useState({
+  const previousState = {
     user_name: '',
     user_email: '',
     subject: '',
     message: ''
-  });
+  }
+
+  const [ formData, setFormData ] = useState(previousState);
 
   const [ errors, setErrors ] = useState({});
   const [ isValid, setIsValid ] = useState(false);
@@ -68,6 +70,7 @@ const ContactForm = () => {
       .then(
         () => {
           setMailSend(true);    
+          setFormData(previousState);
           console.log('SUCCESS!');
         },
         (error) => {
